@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#container {
+    margin-top: -2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+#img {
+    margin-top: -10%;
+    width: 200px;
+    height: 300px;
+}
+
+.Formdiv {
+    width: 50%;
+    margin-top: -1%
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+
+input[type="text"] {
+    margin-top: 10%;
+}
+
+::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
+input {
+    border: none;
+    margin-top: 5%;
+    background: none;
+    border-radius: 15px;
+    width: 38%;
+    font-family: 'Raleway', sans-serif;
+    padding: 1.5% 2%;
+    outline-style: none;
+    border-style: none;
+    font-weight: bold;
+    border: 2px solid #fdc75b;
+    font-size: medium
+}
+
+button {
+    transition: 0.5s ease;
+    outline-style: none;
+    margin-top: 5%;
+    padding: 2% 20%;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    font-weight: 800;
+    border-radius: 15px;
+    letter-spacing: 4px;
+    font-style: italic;
+    border: 2px solid #fdc75b;
+    text-transform: lowercase;
+    color:#ffffff
+}
+
+button.btn {
+    background-color: #ffd176;
+}
+
+button.mO {
+    background-color: #fdc75b;
+}
+
+.color {
+    color: #ffffff;
+}
+
+html, body {
+    overflow-y: hidden;
+}
+
+#content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("http://localhost:3333/uploads/background.png");
+    background-size: 100%;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
