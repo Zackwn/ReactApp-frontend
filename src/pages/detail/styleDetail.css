@@ -1,0 +1,15 @@
+#divDetail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    color: white;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.tD {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    padding: 1%;
+}

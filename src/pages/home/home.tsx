@@ -1,13 +1,13 @@
 import React, { useState, MouseEvent, ChangeEvent, FormEvent } from "react"
-import { useHistory } from "react-router-dom"
 import "./styles.css"
+import { useNavigate } from "react-router"
 import api from "../../services/api"
 
 // const hours = new Date().getHours()
 
 const Home = () => {
-    const history = useHistory()
-    
+    const navigate = useNavigate()
+
     const [backBtn, setBackBtn] = useState<string>("btn")
     const [name, setName] = useState<string>("")
     const [email, setEmail] = useState<string>("")
@@ -28,7 +28,7 @@ const Home = () => {
 
         await api.post("/users", data)
 
-        history.push("/users")
+        navigate("/users")
     }
 
     function handleChangeName(event: ChangeEvent<HTMLInputElement>) {

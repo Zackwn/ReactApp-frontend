@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router } from "react-router-dom"
 
-import Routes from "./routes"
+import MainRoutes from "./routes"
 
 ReactDOM.render(
   <React.StrictMode>  
-    <Routes/>
+    <Router>
+      <MainRoutes/>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
