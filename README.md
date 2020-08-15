@@ -1,5 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ![imgReactApp](https://user-images.githubusercontent.com/56268564/84432310-065f2700-ac03-11ea-9886-64f6a4c855b8.png)
 
 ![imgReactApp2](https://user-images.githubusercontent.com/56268564/84432431-2db5f400-ac03-11ea-8908-651196a14986.png)
